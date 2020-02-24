@@ -1,0 +1,96 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar-light .navbar-brand {
+        font-size: 27px;
+    }
+    .banner-ht {
+        height: 40vh;
+    }
+    .banner-content h1{
+        font-size: 38px;
+    }
+    .who-we-are-contant {
+         margin-right: 0; 
+        margin-bottom: 50px;
+    }
+    .img-fluid {
+        width: 100%;
+    }
+    .we-do-item {
+        margin-bottom: 15px;
+    }
+    .our-attorneys{
+        padding: 20px 0px;
+    }
+    .inner-attorney {
+        padding: 45px 0px;
+        text-align: center;
+    }
+    .our-attorneys-contant {
+        margin-bottom: 20px;
+    }
+    .our-attorneys-contant span {
+        margin-bottom: 20px;
+    }
+    .item-image {
+        margin-bottom: 25px;
+    }
+    .terms {
+        font-size: 15px;}
+    .social-follow i {
+            font-size: 18px;
+        }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .banner-ht{
+        height: 50vh;
+    }
+    .banner-content h1{
+        font-size: 43px;
+    }
+    .our-attorneys-contant h2 {
+        font-size: 30px;
+    }
+    .inner-attorney {
+        padding: 45px 0px;
+        text-align: center;
+    }
+    .our-attorneys-contant {
+        margin-bottom: 25px;
+    }
+    .item-image {
+        margin-bottom: 25px;
+    }
+    .social-follow i {
+        font-size: 23px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+    .our-attorneys-contant h2 {
+        font-size: 30px;
+    }
+    .our-attorneys-contant p{
+        font-size:20px;
+    }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .our-attorneys-contant h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 1440.98px){
+    .banner-content h1{
+        font-size: 63px;
+    }
+}
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
